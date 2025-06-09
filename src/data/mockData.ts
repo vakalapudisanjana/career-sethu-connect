@@ -62,12 +62,12 @@ export const mockColleges: College[] = [
     name: 'JNTU Hyderabad',
     location: 'Hyderabad, Telangana',
     type: 'Government',
-    courses: ['Computer Science Engineering', 'Mechanical Engineering', 'Electrical Engineering'],
-    fees: '1.5 Lakhs per year',
-    cutoffRank: 2500,
+    courses: ['Computer Science', 'Electronics', 'Mechanical', 'Civil'],
+    fees: '₹50,000/year',
+    cutoffRank: 5000,
     seatsAvailable: 180,
     reservationQuota: {
-      general: 50,
+      general: 40,
       sc: 15,
       st: 7,
       bc: 27,
@@ -76,36 +76,70 @@ export const mockColleges: College[] = [
   },
   {
     id: '2',
-    name: 'Osmania Medical College',
+    name: 'BITS Pilani Hyderabad',
     location: 'Hyderabad, Telangana',
-    type: 'Government',
-    courses: ['MBBS', 'BDS'],
-    fees: '25,000 per year',
-    cutoffRank: 150,
-    seatsAvailable: 250,
+    type: 'Private',
+    courses: ['Computer Science', 'Electronics', 'Mechanical', 'Chemical'],
+    fees: '₹4,50,000/year',
+    cutoffRank: 1500,
+    seatsAvailable: 120,
     reservationQuota: {
       general: 50,
       sc: 15,
       st: 7,
-      bc: 27,
-      eus: 10
+      bc: 20,
+      ews: 8
     }
   },
   {
     id: '3',
-    name: 'Loyola Academy',
-    location: 'Secunderabad, Telangana',
-    type: 'Private',
-    courses: ['Bachelor of Commerce', 'Bachelor of Arts', 'BBA'],
-    fees: '1.2 Lakhs per year',
-    cutoffRank: 5000,
-    seatsAvailable: 300,
+    name: 'NIT Warangal',
+    location: 'Warangal, Telangana',
+    type: 'Government',
+    courses: ['Computer Science', 'Electronics', 'Mechanical', 'Civil', 'Chemical'],
+    fees: '₹1,25,000/year',
+    cutoffRank: 2000,
+    seatsAvailable: 200,
     reservationQuota: {
-      general: 85,
-      sc: 5,
-      st: 2,
-      bc: 8,
-      ews: 0
+      general: 42,
+      sc: 15,
+      st: 7,
+      bc: 25,
+      ews: 11
+    }
+  },
+  {
+    id: '4',
+    name: 'IIIT Hyderabad',
+    location: 'Hyderabad, Telangana',
+    type: 'Government',
+    courses: ['Computer Science', 'Electronics'],
+    fees: '₹2,00,000/year',
+    cutoffRank: 800,
+    seatsAvailable: 80,
+    reservationQuota: {
+      general: 45,
+      sc: 15,
+      st: 7,
+      bc: 23,
+      ews: 10
+    }
+  },
+  {
+    id: '5',
+    name: 'CBIT Hyderabad',
+    location: 'Hyderabad, Telangana',
+    type: 'Private',
+    courses: ['Computer Science', 'Electronics', 'Information Technology'],
+    fees: '₹2,50,000/year',
+    cutoffRank: 8000,
+    seatsAvailable: 150,
+    reservationQuota: {
+      general: 48,
+      sc: 15,
+      st: 7,
+      bc: 22,
+      ews: 8
     }
   }
 ];

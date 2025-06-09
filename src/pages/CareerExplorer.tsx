@@ -57,7 +57,7 @@ const CareerExplorer = () => {
                   <SelectValue placeholder="Select Stream" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Streams</SelectItem>
+                  <SelectItem value="all">All Streams</SelectItem>
                   <SelectItem value="Science">Science</SelectItem>
                   <SelectItem value="Commerce">Commerce</SelectItem>
                   <SelectItem value="Arts">Arts</SelectItem>
@@ -69,7 +69,7 @@ const CareerExplorer = () => {
                   <SelectValue placeholder="Duration" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Any Duration</SelectItem>
+                  <SelectItem value="any">Any Duration</SelectItem>
                   <SelectItem value="3">3 Years</SelectItem>
                   <SelectItem value="4">4 Years</SelectItem>
                   <SelectItem value="5">5+ Years</SelectItem>
